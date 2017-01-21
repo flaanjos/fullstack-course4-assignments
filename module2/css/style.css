@@ -17,12 +17,11 @@
   }
 }
 
-html{
+body{
   background: linear-gradient(#99b898, #fecea8, #ff8a7c, #e84a5f, #2a363b);
   background-color: #2a363b;
   background-size: cover;
   background-repeat: no-repeat;
-  size:100%;
 
   color: #2a363b;
 }
@@ -50,8 +49,8 @@ html{
   float: right;
     text-align: center;
   position: relative;
-right: -1;
-top: -1;
+right: -1px;
+top: -1px;
   border: 1px;
   border-style: solid;
   width: 115px;
