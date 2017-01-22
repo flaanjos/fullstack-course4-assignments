@@ -1,6 +1,7 @@
 body {
   font-family: 'Oxygen', sans-serif;
 }
+body { padding-top: 70px; }
 
 .navbar{
    background-color: lightblue;
@@ -55,6 +56,10 @@ body {
 background-color: lightgreen;
 }
 
+h2{
+  margin-top:30px;
+}
+
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar{
   border: 1px solid red;
 }
@@ -65,7 +70,7 @@ background-color: lightgreen;
 }
 
 .item-box{
-  margin: 15px;
+  margin: 25px;
   background-color: lightblue;
   border: 1px;
   border-style: solid;
