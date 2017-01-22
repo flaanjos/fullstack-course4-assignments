@@ -64,6 +64,17 @@ background-color: lightgreen;
   margin-top: -30px;
 }
 
+.item-box{
+  margin: 15px;
+  background-color: lightblue;
+  border: 1px;
+  border-style: solid;
+  border-color: red;
+}
+
+.item-description{
+  padding:15px;
+}
 
 /******************************************/
 
