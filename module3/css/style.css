@@ -1,82 +1,86 @@
-@media(min-width: 992px){
-  .col-g-4 {
-    width: 33.3%;
-  }
-}
-@media(min-width: 768px) and (max-width:991px){
-  .col-m-6 {
-    width: 50%;
-  }
-  .col-m-12 {
-    width: 100%;
-  }
-}
-@media(max-width: 767px){
-  .col-s-12 {
-    width: 100%;
-  }
+body {
+  font-family: 'Oxygen', sans-serif;
 }
 
-body{
-  background: linear-gradient(#99b898, #fecea8, #ff8a7c, #e84a5f, #2a363b);
-  background-color: #2a363b;
-  background-size: cover;
-  background-repeat: no-repeat;
+.navbar{
+   background-color: lightblue;
+   border-radius: 0;
+   border-bottom:  1px solid;
+ }
 
-  color: #2a363b;
-}
-
-.col-g-4, .col-m-6, .col-m-12, .col-s-12{
-  float: left;
-  box-sizing: border-box;
-}
-.container{
-      display: table;
+.navbar-header{
+  height: 80px;
+  padding-left: 40px;
+  padding-right: 30px;
 }
 
-.item-box{
-  background-color: #99b898;
-  border: 1px;
-    border-style: solid;
-    border-color: #2a363b;
-    height: 180px;
-    margin: 15px;
-
+.navbar .container{
+  padding-left: 0;
+  padding-right: 0;
 }
 
-.item-title-box{
-  border-color: #2a363b;
-  float: right;
-    text-align: center;
-  position: relative;
-right: -1px;
-top: -1px;
-  border: 1px;
-  border-style: solid;
-  width: 115px;
-}
-.item-title{
-  font-size: 125%;
-  margin: 5px;
+.navbar-brand {
+  padding: 0;
 }
 
-.chicken{
-  background-color: #fecea8;
-}
-.beef{
-  background-color: #ff8a7c;
-}
-.sushi{
-  background-color: #e84a5f ;
+.navbar-brand h1{
+  font-size: 1.6em;
+  font-family: 'Lora', serif;
+  color: red;
+  text-transform: uppercase;
+  font-weight: bold;
+ }
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+  text-decoration: none;
 }
 
-.item-description{
-  font-family: sans-serif;
-  clear: both;
-  padding: 10px;
+#nav-list{
+  margin-top: 10px;
 }
 
-.myheader{
+#nav-list a{
+  color: red;
   text-align: center;
-    font-size: 175%;
+}
+
+#nav-list a:hover{
+  color: blue;
+  background-color: yellow;
+  font-weight: bolder;
+}
+
+#collapsable-nav{
+
+background-color: lightgreen;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+  border: 1px solid red;
+}
+
+.navbar-header button.navbar-toggle{
+  clear: both;
+  margin-top: -30px;
+}
+
+
+/******************************************/
+
+
+
+/*LG */
+@media (min-width: 1200px) {
+}
+
+/*M */
+@media (min-width: 992px) and (max-width: 1199px){
+}
+
+/*S */
+@media (min-width: 768px) and (max-width: 991px){
+}
+
+/*XS */
+@media (max-width: 767px) {
 }

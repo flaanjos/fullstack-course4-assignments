@@ -1,47 +1,68 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Assigment solution for module 2</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content ="width=device-width, initial-scale=1">
+ <title>David's Chu China Bistro</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
 </hed>
 <body>
   <header class="myheader">
-    OUR MENU
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+
+          <div class="navbar-brand">
+            <a href="index.html" >
+              <h1>Food, LLC.</h1>
+            </a>
+          </div>
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+          data-target="#collapsable-nav" aria-expanded="false">
+          <span class="sr-only">TG NAV</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+
+       <div class="visible-xs">
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+          <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li><a href="google.com">Chicken</a></li>
+            <li><a href="google.com">Beef</a></li>
+            <li><a href="google.com">Sushi</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    </nav>
   </header>
 
-  <div class = "container">
-    <div class = "row">
+  <div class="container">
 
-      <div class = "col-g-4 col-m-6 col-s-12">
+  <h2  class="text-center"> Our Menu </h2>
+
+    <div class="row">
+
+      <div class = "col-lg-12">
         <div class = "item-box">
-          <div class = "item-title-box chicken">
-            <section class = "item-title">  Chicken </sction>
-          </div>
+          <h3> Chicken </h3>
         <section class="item-description"> This is where we talk about how delicious chicken is.
           </section>
         </div>
       </div>
 
-      <div class = "col-g-4 col-m-6 col-s-12">
-        <div class = "item-box">
-          <div class = "item-title-box beef">
-            <section class = "item-title">  Beef </sction>
-          </div>
-          <section class="item-description">E e e e e e e e e e e e e E e e e e e e E e e e e e e E e e e e e e E e e e e e e E e e e e e e E e e e e e e E e e e e e e E e e e e e e E e e e e e e E e e e e e e E e e e e e e E e e e e e e E e e e e e e           </section>
-        </div>
-      </div>
-
-      <div class = "col-g-4 col-m-12 col-s-12 ">
-        <div class = "item-box">
-          <div class = "item-title-box sushi">
-            <section class = "item-title">  Sushi </sction>
-          </div>
-          <section class="item-description">I hate fish.
-            </section>
-        </div>
-      </div>
-
     </div>
-  </div  >
-</body>
+  </div>
+
+
+<script src="js/jquery-3.1.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  </body>
+  </html>
