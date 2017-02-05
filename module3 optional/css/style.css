@@ -1,0 +1,107 @@
+body {
+  font-family: 'Oxygen', sans-serif;
+}
+body { margin-top: 70px; }
+
+.anchor {
+    padding-top: 70px;
+    margin-top: -70px;
+}
+
+.navbar{
+   background-color: lightblue;
+   border-radius: 0;
+   border-bottom:  1px solid;
+ }
+
+.navbar-header{
+  height: 80px;
+  padding-left: 40px;
+  padding-right: 30px;
+}
+
+.navbar .container{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navbar-brand {
+  padding: 0;
+}
+
+.navbar-brand h1{
+  font-size: 1.6em;
+  font-family: 'Lora', serif;
+  color: red;
+  text-transform: uppercase;
+  font-weight: bold;
+ }
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+  text-decoration: none;
+}
+
+#nav-list{
+  margin-top: 10px;
+}
+
+#nav-list a{
+  color: red;
+  text-align: center;
+}
+
+#nav-list a:hover{
+  color: blue;
+  background-color: yellow;
+  font-weight: bolder;
+}
+
+#collapsable-nav{
+
+background-color: lightgreen;
+}
+
+h2{
+  margin-top:30px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+  border: 1px solid red;
+}
+
+.navbar-header button.navbar-toggle{
+  clear: both;
+  margin-top: -30px;
+}
+
+.item-box{
+  margin: 25px;
+  background-color: lightblue;
+  border: 1px;
+  border-style: solid;
+  border-color: red;
+}
+
+.item-description{
+  padding:15px;
+}
+
+/******************************************/
+
+
+
+/*LG */
+@media (min-width: 1200px) {
+}
+
+/*M */
+@media (min-width: 992px) and (max-width: 1199px){
+}
+
+/*S */
+@media (min-width: 768px) and (max-width: 991px){
+}
+
+/*XS */
+@media (max-width: 767px) {
+}
